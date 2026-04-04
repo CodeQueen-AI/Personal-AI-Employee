@@ -19,10 +19,10 @@ class Handler(FileSystemEventHandler):
         src = Path(event.src_path)
         dest = NEEDS_ACTION / src.name
 
-        # file copy
+        # File copy
         shutil.copy(src, dest)
 
-        # markdown task file
+        # Markdown task file
         md_file = dest.with_suffix(".md")
 
         task_content = f"""
