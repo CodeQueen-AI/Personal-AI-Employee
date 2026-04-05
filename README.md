@@ -1,1 +1,1 @@
-# AI Employee Hackhaton 0
+# Personal AI Employee Hackhaton 0
